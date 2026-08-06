@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garage Gym — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 5rem;
+    color: #1a1a1a;
+    background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #141414; }
+    code { background: #262626; }
+    th, td { border-color: #333 !important; }
+    .note { background: #1e1e1e; border-color: #333; }
+  }
+  h1 { font-size: 1.75rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .updated { color: #666; font-size: .9rem; margin-top: 0; }
+  code {
+    background: #f2f2f2;
+    padding: .12em .35em;
+    border-radius: 3px;
+    font-size: .9em;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: .5rem .65rem; text-align: left; font-size: .95rem; }
+  th { font-weight: 600; }
+  .note {
+    background: #f7f7f7;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    padding: .9rem 1.1rem;
+    margin: 1.5rem 0;
+  }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Garage Gym — Privacy Policy</h1>
+<p class="updated">Last updated: 6 August 2026</p>
+
+<p>
+  Garage Gym is a personal workout, running and supplement tracker built for a single
+  user. It is not distributed on the App Store and is not offered as a service to anyone
+  else.
+</p>
+
+<div class="note">
+  <strong>The short version:</strong> there is no server. Everything you enter stays on
+  your phone. The app has no analytics, no advertising, no crash reporting and no user
+  accounts, and the developer has no ability to see your data.
+</div>
+
+<h2>What the app stores, and where</h2>
+
+<table>
+  <tr>
+    <th>Data</th>
+    <th>Where it lives</th>
+  </tr>
+  <tr>
+    <td>Workout logs (exercises, sets, weights, repetitions), session durations, runs,
+        supplement and peptide schedules and their daily check-off, manually entered body
+        weight, sleep, resting heart rate and HRV</td>
+    <td>On-device application storage only. Never transmitted anywhere.</td>
+  </tr>
+  <tr>
+    <td>WHOOP access token, refresh token, and the WHOOP API client ID and secret you
+        supply</td>
+    <td>The iOS Keychain, via the operating system's secure storage.</td>
+  </tr>
+  <tr>
+    <td>Step counts</td>
+    <td>Read from the phone's motion coprocessor (Core Motion) and stored on the device.
+        Never transmitted.</td>
+  </tr>
+</table>
+
+<h2>WHOOP</h2>
+
+<p>
+  If you choose to connect a WHOOP account, the app requests read-only access to the
+  following, using WHOOP's standard OAuth 2.0 authorisation:
+</p>
+
+<ul>
+  <li>Physiological cycles (day strain, energy expenditure)</li>
+  <li>Recovery scores, heart rate variability and resting heart rate</li>
+  <li>Sleep</li>
+  <li>Workouts</li>
+  <li>Profile and body measurements</li>
+</ul>
+
+<p>
+  These requests are made <strong>directly from your phone to WHOOP's servers</strong> at
+  <code>api.prod.whoop.com</code>. There is no intermediary server, because the developer
+  does not operate one. The retrieved data is stored on the device alongside your other
+  training data and is not forwarded anywhere.
+</p>
+
+<p>
+  The app never requests write access and cannot modify anything in your WHOOP account.
+  You can revoke access at any time from within the app, or from your WHOOP account
+  settings.
+</p>
+
+<h2>Third parties</h2>
+
+<p>
+  There is exactly one, and it is worth being explicit about:
+</p>
+
+<p>
+  <strong>YouTube.</strong> Exercise technique videos are embedded from YouTube. When you
+  play one, your device contacts Google's servers directly, and Google will receive your
+  IP address and may set cookies, exactly as if you had opened the video in a browser.
+  This is governed by
+  <a href="https://policies.google.com/privacy">Google's privacy policy</a>, not this one.
+  If you never open a video, no such request is made.
+</p>
+
+<p>
+  Beyond YouTube and WHOOP — the latter only if you connect it — the app makes no network
+  requests at all.
+</p>
+
+<h2>What the app does not do</h2>
+
+<ul>
+  <li>No analytics or usage tracking of any kind</li>
+  <li>No advertising, and no advertising identifiers</li>
+  <li>No crash or diagnostic reporting</li>
+  <li>No user accounts, sign-up or login</li>
+  <li>No selling, renting or sharing of data — there is no data to share, as none of it
+      reaches the developer</li>
+  <li>No location tracking</li>
+  <li>No access to contacts, photos, microphone or camera</li>
+</ul>
+
+<h2>Health information</h2>
+
+<p>
+  Some of what the app records — training history, sleep, heart rate, body weight and a
+  supplement schedule — is health-related and personal. It is treated the same way as
+  everything else: stored locally, transmitted nowhere.
+</p>
+
+<p>
+  The app records what you enter. It does not provide medical advice, and it does not
+  suggest, validate or check any dosage.
+</p>
+
+<h2>Deleting your data</h2>
+
+<ul>
+  <li><strong>All of it:</strong> delete the app from your phone. Because everything is
+      local, nothing survives.</li>
+  <li><strong>From inside the app:</strong> History → Reset all data.</li>
+  <li><strong>WHOOP data only:</strong> disconnecting WHOOP offers to remove everything
+      imported from it. Disconnecting also discards the stored tokens.</li>
+</ul>
+
+<h2>Children</h2>
+
+<p>
+  The app is a personal tool and is not directed at or intended for children.
+</p>
+
+<h2>Changes</h2>
+
+<p>
+  If the app's behaviour changes in a way that affects any of the above, this page will be
+  updated and the date at the top revised.
+</p>
+
+</body>
+</html>
